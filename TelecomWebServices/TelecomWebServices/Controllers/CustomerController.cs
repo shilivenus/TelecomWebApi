@@ -25,7 +25,7 @@ namespace TelecomWebServices.Controllers
         [Route("{customerId}/phoneNumbers")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<PhoneNumber>))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<IEnumerable<PhoneNumber>> GetPhoneNumberByCustomerId(int customerId)
+        public ActionResult<IList<PhoneNumber>> GetPhoneNumberByCustomerId(int customerId)
         {
             var phoneNumbers = _customer.GetPhoneNumberByCustomerId(customerId);
 
