@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecomWebServices", "TelecomWebServices\TelecomWebServices.csproj", "{CAF4DB06-98DC-4199-9842-8B02B72557DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF4DB06-98DC-4199-9842-8B02B72557DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF4DB06-98DC-4199-9842-8B02B72557DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF4DB06-98DC-4199-9842-8B02B72557DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF4DB06-98DC-4199-9842-8B02B72557DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E397B0C1-8FE6-4CC0-B5E3-B1EEAF33C7ED}
+	EndGlobalSection
+EndGlobal
